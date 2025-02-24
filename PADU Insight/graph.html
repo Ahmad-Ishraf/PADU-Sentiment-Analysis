@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Graphs - PADU Insight</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top navbar-shrink py-3" id="mainNav">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><img class="img-icon" src="assets/img/logo/padu_logo.png" style="width: 50px;"><span>PADU Insight</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/graph.html">Graph</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/datasets.html">Datasets</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Tweets-per-Month.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">Date</h5>
+                        <p class="text-muted mb-4">The data collected for this study are from the year 2024 with no data collected in August, September and December with the data amounted to 88 data points.<br><br>The most number of tweets are from January and March.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col order-md-last mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Tweets-per-State.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">State</h5>
+                        <p class="text-muted mb-4">The tweets come from 10 states with the three federal territories consolidated within their respective states.<br><br>Majority of the tweets came from Selangor with 80.7%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Tweets-per-Sentiment.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">Sentiment</h5>
+                        <p class="text-muted mb-4">The major sentiment leans towards neutrality with it contributing to 51.1% overall with positive sentiment of 30.7% and negative sentiment at 18.2%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col order-md-last mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Amount-Data-per-Sentiment.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">Sentiment per Month</h5>
+                        <p class="text-muted mb-4">At the start of the year, most people are feeling Neutral towards PADU with some having a Positive sentiment with a gradual decrease in the overall sentiment probably due to a lack of discussion.<br><br>There is a small spike in Negative sentiment in March but slowly tapers down throughout the year.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Positive-Wordcloud.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">Positive</h5>
+                        <p class="text-muted mb-4">Words like "padu", "sistem", and "kerajaan" (government) suggest discussions that positively highlight a system or initiative, possibly government-led.<br><br>Despite that, there is no strong coloration to a overall positive sentiment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col order-md-last mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Neutral-Wordcloud.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">Neutral</h5>
+                        <p class="text-muted mb-4">Based on the word cloud, the overall content seems to revolve around reporting, information sharing, or administrative details without much sentiment attached.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
+                <div class="col mb-5"><img class="rounded img-fluid shadow" src="assets/img/graph/Negative-Wordcloud.png"></div>
+                <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+                    <div>
+                        <h5 class="fw-bold">Negative</h5>
+                        <p class="text-muted mb-4">The large presence of words like "tak" (meaning "not") suggests a strong association with negative sentiments or issues.&nbsp;<br><br>Other terms like "tidak", "bukan", or phrases related to dissatisfaction could indicate user concerns, complaints, or criticism.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-primary-gradient">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last">
+                    <div class="fw-bold d-flex align-items-center mb-2"><img src="assets/img/logo/padu_logo.png" style="width: 50px;"><span>PADU Insight</span></div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bold-and-bright.js"></script>
+</body>
+
+</html>
